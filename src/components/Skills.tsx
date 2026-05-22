@@ -1,8 +1,9 @@
 // Skills Section — animated technical bars + soft-skill chips
 import { motion } from "motion/react";
 import {
-  SiPython, SiPandas, SiNumpy, SiTableau, SiJupyter, SiGooglesheets,
+  SiPython, SiPandas, SiNumpy, SiJupyter, SiGooglesheets,
 } from "react-icons/si";
+import { LineChart } from "lucide-react";
 import { Database, FileSpreadsheet, BarChart3, Brain, Sigma, Search } from "lucide-react";
 
 const technical = [
@@ -10,7 +11,7 @@ const technical = [
   { name: "SQL", level: 88, Icon: Database, color: "#22d3ee" },
   { name: "Advanced Excel", level: 92, Icon: FileSpreadsheet, color: "#22c55e" },
   { name: "Power BI", level: 85, Icon: BarChart3, color: "#F2C811" },
-  { name: "Tableau", level: 80, Icon: SiTableau, color: "#E97627" },
+  { name: "Tableau", level: 80, Icon: LineChart, color: "#E97627" },
   { name: "Pandas", level: 88, Icon: SiPandas, color: "#a78bfa" },
   { name: "NumPy", level: 82, Icon: SiNumpy, color: "#4D77CF" },
   { name: "Statistics", level: 80, Icon: Sigma, color: "#22d3ee" },
