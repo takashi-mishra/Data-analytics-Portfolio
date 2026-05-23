@@ -57,7 +57,7 @@ export default function Navbar() {
             <BarChart3 className="w-5 h-5 text-primary-foreground" />
           </span>
           <span className="font-display font-bold text-lg">
-            Tanish<span className="gradient-text">.</span>
+            Tarun<span className="gradient-text">.</span>
           </span>
         </button>
 

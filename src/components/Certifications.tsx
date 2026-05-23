@@ -31,7 +31,7 @@ export default function Certifications() {
           </p>
         </motion.div>
 
-        <div className="mt-14 grid md:grid-cols-2 gap-6">
+        <div className="mt-14 grid gap-6 max-w-xl mx-auto">
           {certs.map((c, i) => (
             <motion.article
               key={c.title}
