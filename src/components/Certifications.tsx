@@ -1,18 +1,12 @@
 // Certifications Section — animated cards with hover overlay
 import { motion } from "motion/react";
 import { Award, ExternalLink } from "lucide-react";
-import certPython from "../assets/images/cert-python.jpg";
 import certDsml from "../assets/images/cert-dsml.jpg";
 
 const certs = [
   {
-    title: "Python Certification",
-    issuer: "Verified Program",
-    img: certPython,
-  },
-  {
-    title: "Data Science & Machine Learning",
-    issuer: "Ducat, Noida Sector 63",
+    title: "Python + Data Science & Machine Learning",
+    issuer: "Ducat — An ISO 9001:2000 Company, Noida Sector 63",
     img: certDsml,
   },
 ];
