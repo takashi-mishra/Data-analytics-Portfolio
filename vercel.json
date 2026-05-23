@@ -1,21 +1,9 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist/server",
-  "rewrites": [
-    {
-      "source": "/:path((?!_next|api|.*\\..*)+)$",
-      "destination": "/index.html"
+  "functions": {
+    "dist/server/index.js": {
+      "runtime": "nodejs20.x"
     }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600, s-maxage=3600"
-        }
-      ]
-    }
-  ]
+  }
 }
