@@ -8,28 +8,36 @@ import nasscom from "../assets/images/project-nasscom.jpg";
 
 const projects = [
   {
-    title: "Sales Dashboard Analytics",
-    desc: "Interactive Power BI dashboard surfacing revenue trends, regional performance, and KPI alerts.",
+    title: "Zomato Dashboard",
+    desc: "Interactive Power BI dashboard analyzing Zomato data — orders, revenue trends, and customer insights.",
     img: sales,
-    tags: ["Power BI", "SQL", "DAX"],
+    tags: ["Power BI", "DAX", "Analytics"],
+    live: "https://github.com/Tanishprajapati/Zomato-Dashboad",
+    code: "https://github.com/Tanishprajapati/Zomato-Dashboad",
   },
   {
-    title: "HR Analytics Dashboard",
-    desc: "End-to-end attrition analysis with predictive flags and an executive-ready visual layer.",
+    title: "Raw Music — SQL Project",
+    desc: "End-to-end SQL project on a music streaming dataset with advanced queries and business insights.",
     img: hr,
-    tags: ["Tableau", "Python", "Pandas"],
+    tags: ["SQL", "MySQL", "Analytics"],
+    live: "https://github.com/Tanishprajapati/Raw-Music-SQL-Project",
+    code: "https://github.com/Tanishprajapati/Raw-Music-SQL-Project",
   },
   {
-    title: "Brain Tumor Detection",
-    desc: "ML pipeline for MRI classification using CNNs, with evaluation dashboards and reporting.",
+    title: "Diwali Sales Analysis",
+    desc: "Exploratory data analysis on Diwali sales to surface buying patterns and customer segments.",
     img: brain,
-    tags: ["Python", "ML", "Deep Learning"],
+    tags: ["Python", "Pandas", "EDA"],
+    live: "https://github.com/Tanishprajapati/Dewali-Sales-DA",
+    code: "https://github.com/Tanishprajapati/Dewali-Sales-DA",
   },
   {
-    title: "Nasscom Training Projects",
-    desc: "Curriculum and capstone work delivered to CETPA learners across Python, SQL & analytics.",
+    title: "Sales Insights Dashboard",
+    desc: "Sales analytics dashboard with KPIs, regional breakdowns, and trend reporting.",
     img: nasscom,
-    tags: ["Training", "Python", "SQL"],
+    tags: ["Power BI", "SQL", "Reporting"],
+    live: "https://github.com/Tanishprajapati/Dewali-Sales-DA",
+    code: "https://github.com/Tanishprajapati/Dewali-Sales-DA",
   },
 ];
 
@@ -78,13 +86,17 @@ export default function Projects() {
                 <div className="absolute inset-0 flex items-end justify-center pb-6 opacity-0 group-hover:opacity-100 transition-opacity bg-card/40 backdrop-blur-sm">
                   <div className="flex gap-3">
                     <a
-                      href="#"
+                      href={p.live}
+                      target="_blank"
+                      rel="noreferrer"
                       className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[image:var(--gradient-primary)] text-primary-foreground text-sm font-semibold"
                     >
                       <ExternalLink className="w-4 h-4" /> Live
                     </a>
                     <a
-                      href="#"
+                      href={p.code}
+                      target="_blank"
+                      rel="noreferrer"
                       className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl glass-strong text-sm font-semibold"
                     >
                       <Github className="w-4 h-4" /> Code

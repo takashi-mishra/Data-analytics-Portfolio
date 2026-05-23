@@ -16,13 +16,13 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Tanish Prajapati — Data Analyst & Trainer" },
+      { title: "Tarun Kumar — Data Analyst & Trainer" },
       {
         name: "description",
         content:
-          "Portfolio of Tanish Prajapati, Data Analyst and Trainer with 2+ years of experience building dashboards, analytics, and ML workflows.",
+          "Portfolio of Tarun Kumar, Data Analyst and Trainer with 2+ years of experience building dashboards, analytics, and ML workflows.",
       },
-      { property: "og:title", content: "Tanish Prajapati — Data Analyst & Trainer" },
+      { property: "og:title", content: "Tarun Kumar — Data Analyst & Trainer" },
       {
         property: "og:description",
         content: "Dashboards, analytics, and data-driven decisions — premium portfolio.",

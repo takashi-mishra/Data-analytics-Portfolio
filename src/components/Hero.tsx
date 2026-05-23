@@ -73,7 +73,7 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="mt-5 text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.05]"
           >
-            Hi, I'm <span className="gradient-text">Tanish</span>
+            Hi, I'm <span className="gradient-text">Tarun Kumar</span>
             <br />
             <span className="cursor-blink text-foreground/90">{typed}</span>
           </motion.h1>
@@ -145,8 +145,8 @@ export default function Hero() {
             className="mt-8 flex items-center gap-4 text-muted-foreground"
           >
             {[
-              { Icon: FaGithub, href: "https://github.com" },
-              { Icon: FaLinkedin, href: "https://linkedin.com" },
+              { Icon: FaGithub, href: "https://github.com/Tanishprajapati" },
+              { Icon: FaLinkedin, href: "https://www.linkedin.com/in/mr-tarunkumar" },
               { Icon: FaWhatsapp, href: "https://wa.me/918936923475" },
             ].map(({ Icon, href }, idx) => (
               <a
@@ -174,7 +174,7 @@ export default function Hero() {
             <div className="absolute inset-0 rounded-[2rem] gradient-border" />
             <img
               src={portrait}
-              alt="Tanish Prajapati — Data Analyst"
+              alt="Tarun Kumar — Data Analyst"
               width={400}
               height={400}
               className="relative w-full h-full object-cover rounded-[2rem] shadow-2xl"
