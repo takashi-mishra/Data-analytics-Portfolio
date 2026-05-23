@@ -77,10 +77,17 @@ export default function Contact() {
           <div className="glass rounded-2xl p-5">
             <div className="text-xs text-muted-foreground uppercase tracking-wider mb-3">Follow</div>
             <div className="flex gap-3">
-              {[FaGithub, FaLinkedin, FaTwitter, FaWhatsapp].map((Icon, i) => (
+              {[
+                { Icon: FaGithub, href: "https://github.com/Tanishprajapati" },
+                { Icon: FaLinkedin, href: "https://www.linkedin.com/in/mr-tarunkumar" },
+                { Icon: FaTwitter, href: "https://twitter.com" },
+                { Icon: FaWhatsapp, href: "https://wa.me/918936923475" },
+              ].map(({ Icon, href }, i) => (
                 <motion.a
                   key={i}
-                  href="#"
+                  href={href}
+                  target="_blank"
+                  rel="noreferrer"
                   whileHover={{ y: -3, scale: 1.1 }}
                   className="w-11 h-11 grid place-items-center rounded-xl glass hover:text-primary hover:border-primary/50 transition-colors"
                 >
