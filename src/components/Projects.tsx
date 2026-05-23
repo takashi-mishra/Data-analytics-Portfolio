@@ -28,8 +28,8 @@ const projects = [
     desc: "Exploratory data analysis on Diwali sales to surface buying patterns and customer segments.",
     img: brain,
     tags: ["Python", "Pandas", "EDA"],
-    live: "https://github.com/Tanishprajapati/Dewali-Sales-DA",
-    code: "https://github.com/Tanishprajapati/Dewali-Sales-DA",
+    live: "https://github.com/Tanishprajapati/Brain-Tumor-Detection",
+    code: "https://github.com/Tanishprajapati/Brain-Tumor-Detection",
   },
   {
     title: "Sales Insights Dashboard",
